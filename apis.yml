@@ -1,24 +1,59 @@
 aid: dealflo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealflo.png
 name: Dealflo
-description: 'Dealflo is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Dealflo was a UK-based financial-technology company that provided an automated agreement,
+  identity-verification, and e-signature platform used by lenders and financial institutions to capture,
+  verify, and legally bind financial agreements end to end. It was acquired by OneSpan (formerly VASCO Data
+  Security) in September 2018 for roughly USD 55 million and folded into OneSpan''s Digital Agreements /
+  electronic-signature product line. The dealflo.com domain now 301-redirects to onespan.com and Dealflo no
+  longer operates an independent developer program, public documentation, or API. This record is retained in
+  the API Evangelist network as a portfolio/company lead surfaced from the HV Capital portfolio; no
+  independent API artifacts exist to enrich because the product surface has been absorbed by OneSpan.'
 url: https://raw.githubusercontent.com/api-evangelist/dealflo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: onespan
+x-acquired-year: '2018'
+x-successor-url: https://www.onespan.com/digital-agreements/products/electronic-signature
 x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Electronic Signature
+- Digital Agreements
+- Identity Verification
+- Financial Services
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.onespan.com/digital-agreements/products/electronic-signature
+  name: Successor product (OneSpan Digital Agreements)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
