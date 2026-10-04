@@ -51,7 +51,7 @@ tags:
 - Electronic Signature
 - Digital Agreements
 - Identity Verification
-- Financial-Services
+- Financial Services
 - Acquired
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Identity Verification
 - Financial Services
 - Acquired
+- Financial-Services
 apis: []
 common:
 - type: Website
